@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box
+}
+
+html {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    background-color: #0F1113
+}
+
+html, body{
+    margin: 0;
+}
+
+/* Header */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    border-bottom: solid 1px #fff;
+    backdrop-filter: blur(5px);
+    background: rgba(15, 17, 19, .4)
+  }
+
+h1 {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    padding: 70px 70px;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 70px;
+    color: #fff;
+    font-size: 14pt;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #BAED37;
+
+  }
+
+nav a.active {
+    color: #cecece;
+    opacity: 40%;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Grid */
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  column-gap: 30px;
+  padding: 0 75px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+/* Content */
+
+.presentation{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    grid-column: span 9;
+    font-size: 100px;
+    font-weight: 350;
+    color: #FFF;
+    line-height: 0.9;
+}
+
+
+.Musae {
+    grid-column: span 4;
+}
+
+
+.Otzi {
+    grid-column: span 3;
+}
+
+.Antifem {
+    grid-column: span 3;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sectionTitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    opacity: 40%;
+    text-transform: uppercase;
+    grid-column: span 10;
+    padding-bottom: 30px;
+}
+
+.projectTag {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 50%;
+    text-transform: uppercase;
+}
+
+.projectTagSmall {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 50%;
+    text-transform: uppercase;
+}
+
+
+
+a.project-title {
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+a.project-title-small {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+a.project-description{
+    font-size: 26px;
+    font-weight: 300;
+    color: #FFF;
+    padding-top: 20%;
+}
+
+a.project-description-small{
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFF;
+}
+
+footer{
+    padding: 30px 70px 30px 70px;
+    background-color: #BAED37;
+}
+
+footer li{
+    display: inline-block;
+    color:#000;
+    font-size: 18px;
+}
+
+footer a {
+    color:#000;
+    text-align: center;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  footer a:hover {
+    color: #fff;
+  }
+
+  .navigationBottom {
+    padding: 30px 70px 50px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigationBottom a {
+    font-size: 14pt;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigationBottom a:hover {
+    color: #BAED37;
+  }
+
+.navigationBottom i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nextProject {
+    position: absolute;
+    align-items: right;
+}
+
+  /* ---------------------------------------------------------------------------------------- */
+
+  /* Project pages */
+
+.cit{
+    font-size: 36px;
+    color: #fff;
+    grid-column: 3 / span 6;
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+
+.img1 {
+    grid-column: 2 / span 8;
+    padding-bottom: 60px;
+  }
+
+.img2 {
+      grid-column: 1 / span 10;
+      padding-bottom: 60px;
+      padding-top: 60pxs;
+  }
+
+  .img3 {
+    grid-column: 3 / span 6;
+    padding-top: 60px;
+    padding-bottom:30px;
+  }
+  
+.img4{
+    grid-column: span 10;
+    padding-top: 60px;
+    padding-bottom:30px;
+}
+
+.project-text {
+      font-size: 18px;
+      line-height: 30px;
+      color: #fff;
+      grid-column: 3 / span 6;
+      padding-bottom: 10px;
+}
+
+.projectChapter {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 50%;
+    text-transform: uppercase;
+    grid-column: 3/span 6;
+}
+
+.link {
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: #BAED37;
+}
+
+.btn {
+        grid-column: 3 / span 1; 
+        border: 0;
+        border-radius: 2rem;
+        background: #fff;
+        color: #000;
+        line-height: 1.2;
+         white-space: nowrap;
+        text-decoration: none;
+        font-size: 12pt;
+        padding: 1rem 1.5rem;
+        margin: 0.5rem;
+        cursor: pointer;
+        align-content: center;
+        margin-bottom: 60px;
+    }
+
+    .btn:hover { 
+        background:#BAED37;
+    }
+
+    i {
+        padding-left: 7px;
+        position: relative;
+        top: 2px;
+    }
+    .ph-arrow-up-right{
+        padding-left: 0px;
+    }
+
+/* ---------------------------------------------------------------------------------------- */
+/* Project pages */
+
+.myPresentation {
+    grid-column: 1/span 6;
+    padding-top: 150px;
+    color:#fff;
+    font-size: 24pt;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+
+.sectionTitlePresentation {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    opacity: 40%;
+    text-transform: uppercase;
+    grid-column: span 10;
+    padding-bottom: 10px;
+}
+
+.img5 {
+    grid-column: 7/span 4;
+    padding-top: 150px;
+}
+
+.experience {
+    list-style: none;
+    grid-column: 1/span 6;
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    border-spacing: 20px;
+}
+
+.experience td {
+    padding: 15px;
+    border-bottom: 2px solid #2f3438;
+    
+}
+  /* ---------------------------------------------------------------------------------------- */
+
+  /* Add media queries for responsiveness s- when the screen is 500px wide or less, stack the links on top of each other */
+
+    @media screen and (max-width: 500px) {
+        .header li {
+          float: none;
+          display: inline-block;
+          text-align: right;
+          padding-left: 30px;
+        }
+
+        .presentation-text{
+            font-size: 70px;
+        }
+    }
