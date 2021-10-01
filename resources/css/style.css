@@ -425,6 +425,7 @@ footer a {
 
         .Musae, .Otzi, .Antifem {
             grid-column: span 10;
+            image-resolution: 100%;
             padding-bottom: 50px;
             text-decoration: none;
         }
