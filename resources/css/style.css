@@ -335,21 +335,105 @@ footer a {
 .experience td {
     padding: 15px;
     border-bottom: 2px solid #2f3438;
-    
+    vertical-align: top;
 }
   /* ---------------------------------------------------------------------------------------- */
 
-  /* Add media queries for responsiveness s- when the screen is 500px wide or less, stack the links on top of each other */
+  /* Add media queries for responsiveness */
+
+  @media screen and (max-width: 1024px) {
+    
+    .presentation {
+        font-size: 85px;
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    .header li {
+      float: none;
+      display: inline-block;
+      text-align: right;
+      padding-left: 30px;
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        column-gap: 20px;
+        padding: 0 50px;
+        width: 100%;
+        margin-bottom: 60px;
+      }
+
+    .presentation{
+        font-size: 70px;
+        line-height: 0.9;
+
+    }
+
+
+}
+
 
     @media screen and (max-width: 500px) {
-        .header li {
-          float: none;
-          display: inline-block;
-          text-align: right;
-          padding-left: 30px;
+    
+
+        
+        h1 {
+            font-size: 18px;
+            font-weight: 400;
+            text-decoration: none;
+            color: #fff;
+            padding: 30px 30px;
+        }
+        
+        nav li{
+            display: inline-block;
+            list-style: none;
+            padding-right: 30px;
+            color: #fff;
+            font-size: 14pt;
+        }
+        
+        nav a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
         }
 
-        .presentation-text{
-            font-size: 70px;
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            column-gap: 15px;
+            padding: 0 30px;
+            width: 100%;
+            margin-bottom: 30px;
+          }
+
+        .presentation{
+            font-size: 50px;
+            line-height: 1;
         }
+
+        .sectionTitle, .projectTag, .projectTagSmall {
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-decoration: none;
+        }
+
+        .Musae, .Otzi, .Antifem {
+            grid-column: span 10;
+            padding-bottom: 50px;
+        }
+
+        a.project-title, a.project-title-small {
+            font-size: 20pt;
+        }
+
+        a.project-description, a.project-description-small {
+            font-size:16pt;
+        }
+
+
     }
