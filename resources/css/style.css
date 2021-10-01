@@ -381,7 +381,7 @@ footer a {
     @media only screen and (max-device-width: 500px) {
            
         h1 {
-            font-size: 18px;
+            font-size: 18pt;
             font-weight: 400;
             text-decoration: none;
             color: #fff;
@@ -399,7 +399,7 @@ footer a {
         nav a{
             color: #fff;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 18pt;
         }
 
         #grid {
@@ -412,12 +412,12 @@ footer a {
           }
 
         .presentation{
-            font-size: 50px;
+            font-size: 50pt;
             line-height: 1;
         }
 
         .sectionTitle, .projectTag, .projectTagSmall {
-            font-size: 18px;
+            font-size: 18pt;
             margin-top: 15px;
             margin-bottom: 15px;
             text-decoration: none;
