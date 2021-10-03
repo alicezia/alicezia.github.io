@@ -355,30 +355,29 @@ footer a {
     #grid {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
-        column-gap: 10px;
-        padding: 0 50px;
+        column-gap: 20px;
+        padding: 0 40px;
         width: 100%;
         margin-bottom: 60px;
       }
 
     .presentation{
-        font-size: 70px;
-        line-height: 0.9;
+        font-size: 60px;
+        line-height: 1;
+    }
+
+    .Musae {
+        grid-column: 1 / span 10;
+        padding-bottom: 60px;
     }
 
     .Otzi {
-        grid-column: 1 / span 6;
-    }
-
-    .Otzi {
-        grid-column: 6 / span 3;
+        grid-column: 1 / span 5;
     }
 
     .Antifem {
-        grid-column: 1 / span 4;
+        grid-column: 6 / span 5;
     }
-    
-
 }
 
 
@@ -409,7 +408,7 @@ footer a {
         #grid {
             display: grid;
             grid-template-columns: repeat(10, 1fr);
-            column-gap: 15px;
+            column-gap: 20px;
             padding: 0 30px;
             width: 100%;
             margin-bottom: 30px;
@@ -417,7 +416,7 @@ footer a {
 
         .presentation{
             font-size: 36pt;
-            line-height: 1;
+            line-height: 1.2;
         }
 
         .sectionTitle, .projectTag, .projectTagSmall {
