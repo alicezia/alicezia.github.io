@@ -382,7 +382,7 @@ footer a {
 }
 
 
-    @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
            
         h1 {
             font-size: 14pt;
@@ -463,4 +463,46 @@ footer a {
             font-size: 18px;
             line-height: 25px;
           }
-    }
+
+          /* About me page */
+
+          .myPresentation {
+            grid-column: span 10;
+            padding-top: 120px;
+            color:#fff;
+            font-size: 18pt;
+            line-height: 1.5;
+        }
+        
+        .sectionTitlePresentation {
+            font-size: 18px;
+            font-weight: 400;
+            color: #FFF;
+            opacity: 40%;
+            text-transform: uppercase;
+            grid-column: span 10;
+        }
+        
+        .img5 {
+            grid-column: span 10;
+            padding-top: 30px;
+            padding-bottom: 80px;
+        }
+        
+        .experience {
+            list-style: none;
+            grid-column: span 10;
+            color: #fff;
+            font-size: 18px;
+            line-height: 1;
+            text-align: left;
+            border-spacing: 20px;
+        }
+        
+        .experience td {
+            padding: 15px;
+            border-bottom: 2px solid #2f3438;
+            vertical-align: top;
+        }
+ 
+        }
