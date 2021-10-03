@@ -345,6 +345,7 @@ footer a {
   /* Add media queries for responsiveness */
 
   @media screen and (max-width: 768px) {
+   
     .header li {
       float: none;
       display: inline-block;
@@ -415,6 +416,8 @@ footer a {
           }
 
         .presentation{
+            padding-top: 80px;
+            padding-bottom: 30px;
             font-size: 36pt;
             line-height: 1.2;
         }
