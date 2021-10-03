@@ -385,7 +385,7 @@ footer a {
     @media screen and (max-width: 500px) {
            
         h1 {
-            font-size: 18pt;
+            font-size: 14pt;
             font-weight: 400;
             text-decoration: none;
             color: #fff;
@@ -403,7 +403,7 @@ footer a {
         nav a{
             color: #fff;
             text-decoration: none;
-            font-size: 18pt;
+            font-size: 14pt;
         }
 
         #grid {
@@ -416,7 +416,7 @@ footer a {
           }
 
         .presentation{
-            font-size: 50pt;
+            font-size: 36pt;
             line-height: 1;
         }
 
@@ -429,7 +429,7 @@ footer a {
         .Musae, .Otzi, .Antifem {
             grid-column: span 10;
             image-resolution: 100%;
-            padding-bottom: 50px;
+            padding-bottom: 70px;
         }
 
         a.project-title, a.project-title-small {
