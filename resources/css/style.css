@@ -378,7 +378,7 @@ footer a {
 }
 
 
-    @media only screen and (max-device-width: 500px) {
+    @media screen and (max-width: 500px) {
            
         h1 {
             font-size: 18pt;
