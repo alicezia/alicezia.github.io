@@ -344,13 +344,6 @@ footer a {
 
   /* Add media queries for responsiveness */
 
-  @media screen and (max-width: 1024px) {
-    
-    .presentation {
-        font-size: 85px;
-    }
-}
-
   @media screen and (max-width: 768px) {
     .header li {
       float: none;
@@ -362,7 +355,7 @@ footer a {
     #grid {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
-        column-gap: 20px;
+        column-gap: 10px;
         padding: 0 50px;
         width: 100%;
         margin-bottom: 60px;
@@ -371,14 +364,25 @@ footer a {
     .presentation{
         font-size: 70px;
         line-height: 0.9;
-
     }
 
+    .Otzi {
+        grid-column: 1 / span 6;
+    }
+
+    .Otzi {
+        grid-column: 6 / span 3;
+    }
+
+    .Antifem {
+        grid-column: 1 / span 4;
+    }
+    
 
 }
 
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 500px) {
            
         h1 {
             font-size: 18pt;
@@ -417,17 +421,15 @@ footer a {
         }
 
         .sectionTitle, .projectTag, .projectTagSmall {
-            font-size: 18pt;
+            font-size: 14pt;
             margin-top: 15px;
             margin-bottom: 15px;
-            text-decoration: none;
         }
 
         .Musae, .Otzi, .Antifem {
             grid-column: span 10;
             image-resolution: 100%;
             padding-bottom: 50px;
-            text-decoration: none;
         }
 
         a.project-title, a.project-title-small {
