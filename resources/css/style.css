@@ -76,7 +76,7 @@ nav a.active {
 
 /* Cookies */
 
-#cookiePopup {
+.cookiePopup {
     background: #BAED37;
     width: 25%;
     position: fixed;
@@ -85,17 +85,18 @@ nav a.active {
     padding: 10px 20px;
   }
 
-  #cookiePopup h4 {
+  .cookiePopup h4 {
       font-size: 14pt;
   }
     
-  #cookiePopup p{
+  .cookiePopup p{
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     color: #4e4e4e;
+    line-height: 1.5;
   }
 
-  #cookiePopup button{
+  .cookiePopup button{
     border: 0;
     border-radius: 10rem;
     background: #fff;
@@ -108,9 +109,10 @@ nav a.active {
     margin: 0.5rem;
     cursor: pointer;
     align-content: center;
+    font-family: 'Work Sans', sans-serif;
   }
 
-  #cookiePopup button:hover{
+  .cookiePopup button:hover{
     background: #000;
     color:#fff;
 }
