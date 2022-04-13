@@ -74,7 +74,7 @@ nav a.active {
 
 /* ---------------------------------------------------------------------------------------- */
 
-/* Cookies 
+/* Cookies
 
 .cookiePopup {
     background: #BAED37;
@@ -88,7 +88,7 @@ nav a.active {
   .cookiePopup h4 {
       font-size: 14pt;
   }
-    
+
   .cookiePopup p{
     text-align: left;
     font-size: 16px;
@@ -126,7 +126,7 @@ nav a.active {
     font-size: 100px;
     font-weight: 350;
     color: #FFF;
-    line-height: 0.9;
+    line-height: 1;
 }
 
 
@@ -280,7 +280,7 @@ footer a {
     padding-top: 30px;
     padding-bottom:30px;
   }
-  
+
 .img4{
     grid-column: span 10;
     padding-top: 60px;
@@ -315,7 +315,7 @@ footer a {
 }
 
 .btn {
-        grid-column: 3 / span 1; 
+        grid-column: 3 / span 1;
         border: 0;
         border-radius: 2rem;
         background: #fff;
@@ -331,7 +331,7 @@ footer a {
         margin-bottom: 60px;
     }
 
-    .btn:hover { 
+    .btn:hover {
         background:#BAED37;
     }
 
@@ -354,11 +354,11 @@ footer a {
         text-decoration: none;
         color: #fff;
     }
-    
+
     .navigationBottom a:hover {
         color: #BAED37;
       }
-    
+
     .navigationBottom i {
         padding-left: 5px;
         padding-right: 5px;
@@ -410,7 +410,7 @@ footer a {
   /* Add media queries for responsiveness */
 
   @media screen and (max-width: 768px) {
-   
+
     .header li {
       float: none;
       display: inline-block;
@@ -452,7 +452,7 @@ footer a {
         font-size: 18pt;
         line-height: 1.5;
     }
-    
+
     .sectionTitlePresentation {
         font-size: 18px;
         font-weight: 400;
@@ -461,13 +461,13 @@ footer a {
         text-transform: uppercase;
         grid-column: span 10;
     }
-    
+
     .img5 {
         grid-column: span 10;
         padding-top: 30px;
         padding-bottom: 80px;
     }
-    
+
     .experience {
         list-style: none;
         grid-column: span 10;
@@ -477,7 +477,7 @@ footer a {
         text-align: left;
         border-spacing: 20px;
     }
-    
+
     .experience td {
         padding: 15px;
         border-bottom: 2px solid #2f3438;
@@ -492,18 +492,18 @@ footer a {
         bottom: 20px;
         padding: 10px 20px;
       }
-    
+
       .cookiePopup h4 {
           font-size: 14pt;
       }
-        
+
       .cookiePopup p{
         text-align: left;
         font-size: 14px;
         color: #4e4e4e;
         line-height: 1.5;
       }
-    
+
       .cookiePopup button{
         border: 0;
         border-radius: 10rem;
@@ -523,7 +523,7 @@ footer a {
 
 
 @media screen and (max-width: 500px) {
-           
+
         h1 {
             font-size: 14pt;
             font-weight: 400;
@@ -531,7 +531,7 @@ footer a {
             color: #fff;
             padding: 30px 30px;
         }
-        
+
         nav li{
             display: inline-block;
             list-style: none;
@@ -539,7 +539,7 @@ footer a {
             color: #fff;
             font-size: 14pt;
         }
-        
+
         nav a{
             color: #fff;
             text-decoration: none;
@@ -586,7 +586,7 @@ footer a {
             padding: 30px 30px 30px 30px;
             background-color: #BAED37;
         }
-        
+
         footer li{
             display: inline-block;
             color:#000;
@@ -594,7 +594,7 @@ footer a {
             margin-bottom: 5px;
             margin-top: 5px;
         }
-        
+
         footer a {
             color:#000;
             text-align: center;
@@ -620,7 +620,7 @@ footer a {
           }
 
 
-      
+
         .project-text {
             font-size: 18px;
             line-height: 30px;
@@ -628,7 +628,7 @@ footer a {
             grid-column: 1 / span 10;
             padding-bottom: 10px;
         }
-      
+
         .projectChapter {
           font-size: 16px;
           font-weight: 400;
@@ -637,19 +637,19 @@ footer a {
           text-transform: uppercase;
           grid-column: 1 / span  10;
         }
-      
+
         .link {
           color:#fff;
           text-decoration: none;
           font-weight: 600;
         }
-      
+
         .link:hover {
            color: #BAED37;
          }
-      
+
         .btn {
-              grid-column: 1 / span 1; 
+              grid-column: 1 / span 1;
               border: 0;
               border-radius: 2rem;
               background: #fff;
@@ -664,11 +664,11 @@ footer a {
               align-content: center;
               margin-bottom: 60px;
           }
-      
-          .btn:hover { 
+
+          .btn:hover {
               background:#BAED37;
           }
-      
+
           i {
               padding-left: 7px;
               position: relative;
@@ -688,7 +688,7 @@ footer a {
             font-size: 18pt;
             line-height: 1.5;
         }
-        
+
         .sectionTitlePresentation {
             font-size: 18px;
             font-weight: 400;
@@ -697,13 +697,13 @@ footer a {
             text-transform: uppercase;
             grid-column: span 10;
         }
-        
+
         .img5 {
             grid-column: span 10;
             padding-top: 30px;
             padding-bottom: 80px;
         }
-        
+
         .experience {
             list-style: none;
             grid-column: span 10;
@@ -713,7 +713,7 @@ footer a {
             text-align: left;
             border-spacing: 20px;
         }
-        
+
         .experience td {
             padding: 15px;
             border-bottom: 2px solid #2f3438;
@@ -731,18 +731,18 @@ footer a {
             bottom: 0px;
             padding: 10px 20px;
           }
-        
+
           .cookiePopup h4 {
               font-size: 14pt;
           }
-            
+
           .cookiePopup p{
             text-align: left;
             font-size: 14px;
             color: #4e4e4e;
             line-height: 1.5;
           }
-        
+
           .cookiePopup button{
             border: 0;
             border-radius: 10rem;
@@ -758,8 +758,5 @@ footer a {
             align-content: center;
             font-family: 'Work Sans', sans-serif;
           }
- 
-        }
 
-     
-        
+        }
